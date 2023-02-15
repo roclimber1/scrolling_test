@@ -1,7 +1,13 @@
-# This is just a simple scrolling test application
+## This is just a simple scrolling test application
 
-## To run the test server, use the following command
+### To run the test server, use the following command
 
 ```sh
-npx serve
+npm run dev
+```
+
+### To create a bundle use command
+
+```sh
+npm run build
 ```
