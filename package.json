@@ -1,0 +1,25 @@
+{
+  "name": "scroll_test",
+  "version": "1.0.0",
+  "description": "This is just a simple scrolling test application",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx babel app.js --out-file dist/app.js",
+    "dev": "npm run build && npx serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roclimber1/scrolling_test.git"
+  },
+  "author": "roclimber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roclimber1/scrolling_test/issues"
+  },
+  "homepage": "https://github.com/roclimber1/scrolling_test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
